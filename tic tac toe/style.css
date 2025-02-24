@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding:0
+}
+.body{
+    background-color: #71697A;
+    display: flex;
+    justify-content: center;   
+}
+.tic{
+    font-size:xx-large ;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(60, 2, 2);
+    position: absolute;
+    
+
+}
+
+.container
+{
+    height: 80vh;
+
+}
+.game{
+    height:70vmin;
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    margin-top: 50px;
+
+}
+.box
+{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: none;
+    font-size: 8vmin;
+    color: brown;
+    background-color: #D0E1D4;
+    
+}
+#Reset
+{
+    background-color: brown;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 21vmin;
+    color: #381201;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+   
+}
+#Newgame{
+    
+    background-color: brown;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #381201;
+    font-family: 'Courier New', Courier, monospace  ;
+    font-weight: 900;
+}
+
+#msg{
+    color: #381201;
+    font-size: 5vmin;
+    color: black;
+    font-family: 'Courier New', Courier, monospace  ;
+
+    
+}
+#draw_msg{
+    color: #0c878b;
+    font-size: 5vmin;
+    color: black;
+    font-family: 'Courier New', Courier, monospace  ;
+}
+.msg_container{
+    
+    width: fit-content;
+     background-color: #0c878b;
+    left: 221px;
+    top: 20px;
+    border: none;
+
+    
+}
+
+
+/* #hello{
+    color: brown;
+} */
